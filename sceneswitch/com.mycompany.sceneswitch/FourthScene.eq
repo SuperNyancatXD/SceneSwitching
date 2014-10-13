@@ -10,7 +10,7 @@ public class FourthScene : SEScene
 	
 	public void initialize(SEResourceCache rsc) {
 		base.initialize(rsc);
-		rsc.prepare_font("myFont", "arial bold color=white", 75);
+		rsc.prepare_font("myFont", "arial bold color=black", 75);
 		rsc.prepare_image("myimage", "raichu", get_scene_width(), get_scene_height());
 		add_sprite_for_image(SEImage.for_resource("myimage"));
 		backText = add_sprite_for_text("BACK", "myFont");
